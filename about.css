@@ -14,6 +14,9 @@ body {
   background: #020617;
   border-bottom: 1px solid #1e293b;
 }
+.navbar {
+  padding: 1rem 3rem;
+}
 
 .logo {
   font-weight: bold;
@@ -56,7 +59,12 @@ body {
   text-align: center;
 }
 .hero h2 {
-  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  margin-bottom: 1.5rem;
+  max-width: 600px;
 }
 
 .hero button {
