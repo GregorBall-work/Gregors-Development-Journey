@@ -48,10 +48,13 @@ body {
 
 /* HERO */
 .hero {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 6rem 2rem;
 }
-
 .hero h2 {
   font-size: 2.5rem;
 }
