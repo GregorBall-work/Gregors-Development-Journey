@@ -1,0 +1,10 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.content {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
