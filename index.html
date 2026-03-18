@@ -1,37 +1,60 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home</title>
-  <link rel="stylesheet" href="index.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Certificates</title>
+
+  <!-- FIXED CSS PATH -->
+  <link rel="stylesheet" href="../CSS/certificates.css" />
 </head>
+
 <body>
 
+  <!-- NAVBAR -->
   <header class="navbar">
-    <h1 class="logo">Gregor's Portfolio</h1>
+    <h1 class="logo">Gregor.dev</h1>
     <nav>
-      <a href="index.html" class="nav-link active">Home</a>
-      <a href="about.html" class="nav-link">About</a>
-      <a href="certificates.html" class="nav-link">Certificates</a>
+      <a href="/Gregors-Development-Journey/index.html" class="nav-link">Home</a>
+      <a href="/Gregors-Development-Journey/HTML/about.html" class="nav-link">About</a>
+      <a href="/Gregors-Development-Journey/HTML/certificates.html" class="nav-link active">Certificates</a>
     </nav>
   </header>
 
-  <main class="hero">
-    <h2>👋 Hi, I'm Gregor</h2>
-    <p>Welcome To My Portfolio!</p>
-    <a href="certificates.html">
-  <button>View My Work</button>
-</a>
-  </main>
-<script>
-  const links = document.querySelectorAll(".nav-link");
+  <!-- MAIN CONTENT -->
+  <main class="container">
 
-  links.forEach(link => {
-    if (link.href === window.location.href) {
-      link.classList.add("active");
-    }
-  });
-</script>
+    <section>
+      <h2>My Certificates</h2>
+      <p>A collection of my learning and achievements.</p>
+    </section>
+
+    <section class="grid">
+
+      <!-- CARD 1 -->
+      <div class="card">
+        <img src="../Images/cert1.jpg" alt="Data Analysis Certificate">
+        <h3>Data Analysis Certificate</h3>
+        <p>Completed course on data analysis fundamentals.</p>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="card">
+        <img src="../Images/cert2.jpg" alt="AI Fundamentals">
+        <h3>AI Fundamentals</h3>
+        <p>Introduction to Generative AI concepts.</p>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="card">
+        <img src="../Images/cert3.jpg" alt="GRC Training">
+        <h3>GRC Training</h3>
+        <p>Governance, Risk & Compliance certification.</p>
+      </div>
+
+    </section>
+
+  </main>
+
 </body>
 </html>
